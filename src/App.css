@@ -1,0 +1,19 @@
+.ControlPanelItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+.ControlPanel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index:999;
+}
+.MainWrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
